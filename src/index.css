@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-size: 16px;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #efefef;
+}
+
+.app {
+    margin: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #ddd;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.btn {
+    border: 1px solid #e2c453;
+    background: #e2c453;
+    padding: 8px 16px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background: #c0a33b;
+}
+
+.btn-secondary {
+    background: #fff;
+    color: #e2c453;
+}
+
+.btn-secondary:hover {
+    background: #c0a33b;
+    color: #fff;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+    margin: 100px auto;
+    width: 400px;
+    max-width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
 }
