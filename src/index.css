@@ -1,11 +1,10 @@
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 body {
-    font-size: 16px;
     color: #222;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #efefef;
+    margin: 0;
 }
